@@ -46,8 +46,4 @@ public class SpringSecurityConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-
-    private String testMethod() {
-        return "Test method";
-    }
 }
